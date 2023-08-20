@@ -1,0 +1,163 @@
+/* ============= VARIABLES ============= */
+:root {
+  --primary-color: #2e2f42;
+  --secondary-color: #434455;
+  --accent-color: #fff;
+}
+/* ============= /VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ============= /COMMON STYLES ============= */
+
+/* ================ COMPONENTS ================ */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: -0.72px;
+  color: var(--primary-color);
+}
+/* ================ /COMPONENTS ================ */
+
+/* ============= PAGE HEADER ============= */
+.logotype {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: calc(20 / 18);
+  letter-spacing: -0.03em;
+  color: var(--primary-color);
+}
+
+.header-logo-text {
+  color: #4d5ae5;
+}
+
+.menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(24px / 16px);
+  letter-spacing: 0.32px;
+  color: var(--primary-color);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address-item {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: var(--secondary-color);
+}
+/* ============= /PAGE HEADER ============= */
+
+/* ================ HERO ================ */
+.hero {
+  background-color: var(--primary-color);
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: var(--accent-color);
+}
+
+.order-service-btn {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #4d5ae5;
+  color: var(--accent-color);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: #404bbf;
+}
+
+/* ================ /HERO ================ */
+
+/* ================ BENEFITS ================ */
+.benefits-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1, 2;
+  letter-spacing: 0.4px;
+  color: var(--secondary-color);
+}
+
+.benefits-list-text {
+  color: var(--secondary-color);
+}
+/* ================ /BENEFITS ================ */
+
+/* ================ TEAM ================ */
+.team-list-fullname {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-list-text {
+  color: var(--secondary-color);
+}
+
+/* ================ /TEAM ================ */
+
+/* ================ PORTFOLIO ================ */
+.portfolio-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--primary-color);
+}
+
+.portfolio-list-text {
+  color: var(--secondary-color);
+}
+/* ================ /PORTFOLIO ================ */
+
+/* ================ PAGE FOOTER ================ */
+.footer-back {
+  background-color: var(--primary-color);
+}
+
+.footer-logo-text {
+  color: #4d5ae5;
+}
+
+.footer-logotype {
+  font-family: Raleway;
+  color: var(--accent-color);
+}
+
+.marketing-message {
+  color: var(--accent-color);
+}
+/* ================ /PAGE FOOTER ================ */
