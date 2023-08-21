@@ -116,6 +116,10 @@ body {
 /* ================ /BENEFITS ================ */
 
 /* ================ TEAM ================ */
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-list-fullname {
   font-size: 20px;
   font-weight: 500;
