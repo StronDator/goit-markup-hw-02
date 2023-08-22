@@ -134,20 +134,18 @@ body {
   background-color: #f4f4fd;
 }
 
-.team-list {
-  background-color: var(--accent-color);
-}
-
 .team-list-fullname {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+  background-color: var(--accent-color);
 }
 
 .team-list-text {
   color: var(--secondary-color);
+  background-color: var(--accent-color);
 }
 
 /* ================ /TEAM ================ */
@@ -162,6 +160,7 @@ body {
 }
 
 .portfolio-list-text {
+  letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
 /* ================ /PORTFOLIO ================ */
