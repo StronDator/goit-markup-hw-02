@@ -74,15 +74,13 @@ body {
   color: var(--primary-color);
 }
 
-.address-item {
-  font-weight: 500;
+.address-list-link {
+  color: var(--secondary-color);
 }
 
-.address-item:hover,
-.address-item:focus,
-.address-item:active {
+.address-list-link:hover,
+.address-list-link:focus {
   color: #404bbf;
-  text-decoration: underline;
 }
 /* ============= /PAGE HEADER ============= */
 
