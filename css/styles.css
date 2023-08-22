@@ -71,7 +71,7 @@ body {
 
 .address {
   font-style: normal;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .address-item {
