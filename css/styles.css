@@ -62,6 +62,10 @@ body {
   color: var(--secondary-color);
 }
 
+.menu-item {
+  color: var(--primary-color);
+}
+
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active {
