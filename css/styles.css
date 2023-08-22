@@ -59,7 +59,7 @@ body {
 
 .menu-link {
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .menu-link:hover,
@@ -71,10 +71,18 @@ body {
 
 .address {
   font-style: normal;
+  color: var(--secondary-color);
 }
 
 .address-item {
   font-weight: 500;
+}
+
+.address-item:hover,
+.address-item:focus,
+.address-item:active {
+  color: #404bbf;
+  text-decoration: underline;
 }
 /* ============= /PAGE HEADER ============= */
 
