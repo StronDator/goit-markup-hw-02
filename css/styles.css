@@ -57,13 +57,9 @@ body {
   color: var(--primary-color);
 }
 
-.menu {
-  background-color: var(--primary-color);
-}
-
 .menu-link {
   font-weight: 500;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .menu-link:hover,
