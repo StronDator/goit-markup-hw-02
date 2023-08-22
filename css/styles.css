@@ -70,11 +70,11 @@ body {
 }
 
 .address {
+  font-style: normal;
   color: var(--primary-color);
 }
 
 .address-list-link {
-  font-style: normal;
   color: var(--secondary-color);
 }
 
