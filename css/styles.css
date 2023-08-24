@@ -66,7 +66,6 @@ body {
 .menu-link:focus,
 .menu-link:active {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .address {
